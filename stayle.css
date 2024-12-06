@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(#08244F, #134CB5, #0B42AB);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 68px 58px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1324px;
+}
+
+.header p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31.25px;
+}
+
+.place {
+    display: flex;
+    justify-content: end;
+    padding: 10px 20px;
+    width: 318px;
+    height: 40px;
+    border: 1px white solid;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.place p {
+    margin: 0 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.forecast-header{
+    display: flex;
+    align-items: center;
+}
+
+.forecast-header div{
+    margin: 0 14px ;
+}
+
+.forecast{
+    direction: rtl;
+    background-color: #0010264D;
+    width:884px ;
+    height: 400px;
+    border-radius: 16px;
+    padding: 20px 40px;
+    
+}
+
+.forecast-list{
+    list-style-type: none;
+    
+}
+
+.forecast-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);   
+    padding:10px ;
+}
+
+.day , .icon , .temperature{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.day{
+    width: 25px;
+
+}
+.head-title{
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.main{
+    display: flex;
+    width: 1324px ;
+    padding: 68px 0;
+    gap: 80px ;
+    align-items: center;
+
+}
+
+.type-of-weather{
+    text-align: center;
+    
+}
+
+.text{
+    align-items: center;
+    display:flex ;
+    flex-direction: column;
+}
+
+.temp{
+    font-size: 30px  !important;
+    font-weight: 700 !important;
+}
+.text p {
+    font-size: 20px ;
+    font-weight: 400;
+    
+}
+
+
+
+.tem{
+    width: 200px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
